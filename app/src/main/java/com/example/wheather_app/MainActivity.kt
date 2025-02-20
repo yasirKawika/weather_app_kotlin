@@ -38,8 +38,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        // link the textView in which the
-        // temperature will be displayed
         textView = findViewById(R.id.textView)
 
         btVar1 = findViewById(R.id.btVar1)
